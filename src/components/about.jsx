@@ -5,7 +5,7 @@ import './about.css';
 export default class About extends Component {
     render () {
 	return (
-	    <div className="container col-md-10">
+	    <div className="container col-md-10 about">
 		<img src={mainImage} alt="Main Page" className="chamonixImage" />
 	    </div>
 	)

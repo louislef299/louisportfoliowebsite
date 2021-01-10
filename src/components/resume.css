@@ -6,14 +6,10 @@
     
 }
 
-h2{
+.needyBorder{
     border-bottom: 3px solid black;
 }
 
-h3{
-    font-weight:bold;
-}
-
-h1{
+.boldNeed{
     font-weight:bold;
 }

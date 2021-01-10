@@ -4,6 +4,7 @@ import About from './components/about.jsx';
 import Home from './components/homepage.jsx';
 import Header from './components/header.jsx';
 import Resume from './components/resume.jsx';
+import Contact from './components/contact.jsx';
 
 import {
   Switch,
@@ -21,6 +22,7 @@ class App extends Component {
 		<Switch>
 		    <Route path="/about" exact component={Home} />
 		    <Route path="/resume" exact component={Resume} />
+		    <Route path="/contact" exact component={Contact} />
 		    <Route path="/" component={About} />
 		</Switch>
 	    </>

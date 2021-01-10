@@ -9,8 +9,9 @@ export default class Header extends Component {
 		<h1 className="headerName">
 		    <Link to="/about" style={{color:"black"}}>Louis Lefebvre</Link>
 		    
-			<ul>
+		    <ul className="icons">
 			    <li><a href="https://www.linkedin.com/in/louis-lefebvre-3b1279173/" target="_blank" rel="noopener noreferrer" className="fab fa-linkedin"></a></li>
+			    <li><a href="mailto: lefeb073@umn.edu" target="_blank" rel="noopener noreferrer" className="far fa-paper-plane"></a></li>
 			    <li><a href="https://www.instagram.com/louis_lefebvree/" target="_blank" rel="noopener noreferrer" className="fab fa-instagram"></a></li>
 			    <li><a href="https://github.com/louislef299" target="_blank" rel="noopener noreferrer" className="fab fa-github"></a></li>
 			    <li><a href="https://www.strava.com/athletes/53228508" target="_blank" rel="noopener noreferrer" className="fab fa-strava"></a></li>

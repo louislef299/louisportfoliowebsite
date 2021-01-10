@@ -17,7 +17,7 @@ export default class Navbar extends Component {
 				    <a classsName="nav-link col-md-9 col-8" style={{marginLeft:"30px"}}><Link to="/resume" style={{color:"black"}}>Resume</Link></a>
 				</div>
 				<div className="row">
-				    <a classsName="nav-link col-md-9 col-8" style={{marginLeft:"30px"}}><Link to="/" style={{color:"black"}}>item</Link></a>
+				    <a classsName="nav-link col-md-9 col-8" style={{marginLeft:"30px"}}><Link to="/contact" style={{color:"black"}}>Contact</Link></a>
 				</div>
 			    </nav>
 			</nav>

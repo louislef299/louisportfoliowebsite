@@ -1,0 +1,18 @@
+.contact{
+    background-color:#fff7e8;
+    height:100vh;
+    overflow:auto;
+}
+
+.finale{
+    font-family:georgia;
+    color:black;
+}
+
+.chax{
+    height:60%;
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
