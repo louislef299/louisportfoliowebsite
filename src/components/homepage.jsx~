@@ -1,0 +1,19 @@
+import React, { Component } from 'react';
+import './homepage.css';
+import louislogo from './images/IMG_4986.jpg';
+
+export default class Homepage extends Component {
+    render () {
+	return (
+	    <div className="homepage-container col-md-10">
+		<div className="hero-image" style={{backgroundImage:"url("+{louislogo}+")"}}>
+		    <div className="hero-text">
+			<h1>I am Louis Lefebvre</h1>
+			<p>And I am a programmer</p>
+		    </div>
+		</div>		
+	    </div>
+	    
+	)
+    }
+}
