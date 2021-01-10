@@ -1,0 +1,19 @@
+.resume{
+    background-color:#fff7e8;
+    font-family:georgia;
+    height:100vh;
+    overflow:auto;
+    
+}
+
+h2{
+    border-bottom: 3px solid black;
+}
+
+h3{
+    font-weight:bold;
+}
+
+h1{
+    font-weight:bold;
+}

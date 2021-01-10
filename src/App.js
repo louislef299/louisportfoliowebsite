@@ -3,6 +3,7 @@ import Navbar from './components/navbar.jsx';
 import About from './components/about.jsx';
 import Home from './components/homepage.jsx';
 import Header from './components/header.jsx';
+import Resume from './components/resume.jsx';
 
 import {
   Switch,
@@ -19,6 +20,7 @@ class App extends Component {
 
 		<Switch>
 		    <Route path="/about" exact component={Home} />
+		    <Route path="/resume" exact component={Resume} />
 		    <Route path="/" component={About} />
 		</Switch>
 	    </>
