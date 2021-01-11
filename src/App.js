@@ -5,6 +5,7 @@ import Home from './components/homepage.jsx';
 import Header from './components/header.jsx';
 import Resume from './components/resume.jsx';
 import Contact from './components/contact.jsx';
+import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
 
 import {
   Switch,
@@ -25,10 +26,11 @@ class App extends Component {
 		    <Route path="/contact" exact component={Contact} />
 		    <Route path="/" component={About} />
 		</Switch>
+		<AmplifySignOut />
 	    </>
 	    
 	);
     }
 }
 
-export default App;
+export default withAuthenticator(App);
