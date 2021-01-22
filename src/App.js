@@ -6,12 +6,12 @@ import Header from './components/header.jsx';
 import Resume from './components/resume.jsx';
 import Contact from './components/contact.jsx';
 import { withAuthenticator, AmplifySignOut } from '@aws-amplify/ui-react';
-
 import {
   Switch,
   Route
 } from "react-router-dom";
 import React, { Component } from 'react';
+import { API, Storage } from 'aws-amplify';
 
 class App extends Component {
     render() {

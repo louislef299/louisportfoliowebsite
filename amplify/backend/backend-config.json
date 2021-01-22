@@ -1,10 +1,27 @@
 {
-  "auth": {
-    "louisportfoliowebsitec7152706": {
-      "service": "Cognito",
+  "auth": {},
+  "api": {
+    "louisportfolio": {
+      "service": "AppSync",
       "providerPlugin": "awscloudformation",
-      "dependsOn": [],
-      "customAuth": false
+      "output": {
+        "authConfig": {
+          "defaultAuthentication": {
+            "authenticationType": "API_KEY",
+            "apiKeyConfig": {
+              "apiKeyExpirationDays": 150,
+              "description": "louisport"
+            }
+          },
+          "additionalAuthenticationProviders": []
+        }
+      }
+    }
+  },
+  "storage": {
+    "louisbucket": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation"
     }
   }
 }
